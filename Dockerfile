@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"]   # package.json 里已经有 "start": "node index.js"
+CMD npm start
